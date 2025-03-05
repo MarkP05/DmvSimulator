@@ -16,7 +16,7 @@ public class DmvSimulator {
                 if (luck == 1) { // This makes chance of successful paperwork 1%
                     System.out.println("Luckily for you, your paperwork is correct! I have no idea how that is possible...");
                 } else {
-                    System.out.println("Bad News... this paperwork is useless...");
+                    System.out.println("Bad News... this paperwork is useless... Mwaahahahahahaha!!!");
                 }
                 break;
             }
