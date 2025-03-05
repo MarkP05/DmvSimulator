@@ -12,7 +12,7 @@ public class DmvSimulator {
             // When the the generated number is the one in the loop, breaks the loop
             if (dmvNum == currNum) {
                 System.out.println("Hey it is finally your turn!");
-                System.out.println("Bad News... this paperwork is useless...");
+                System.out.println("Bad News... this paperwork is useless... Mwaahahahahahaha!!!");
                 break;
             }
 
