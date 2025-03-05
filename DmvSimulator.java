@@ -9,7 +9,7 @@ public class DmvSimulator {
             System.out.println("Next up... " + currNum + "!");
             if (dmvNum == currNum) {
                 System.out.println("Hey it is finally your turn!");
-                System.out.println("Bad News... this paperwork is useless...");
+                System.out.println("Bad News... this paperwork is useless... Mwaahahahahahaha!!!");
                 break;
             }
 
