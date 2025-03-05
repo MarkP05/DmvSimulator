@@ -1,22 +1,26 @@
 public class DmvSimulator {
     public static void main(String[] args) {
+        // Greets user, generates their number
         System.out.println("Welcome to the DMV!");
         int dmvNum = (int) (Math.random()*100);
         System.out.println("Your number is: " + dmvNum + "\r\nPlease wait to be called.");
         int currNum = dmvNum+1;
         
+        // Loops until the generated number equals the loop number. 
         while (true) {
             System.out.println("Next up... " + currNum + "!");
+            // When the the generated number is the one in the loop, breaks the loop
             if (dmvNum == currNum) {
                 System.out.println("Hey it is finally your turn!");
                 System.out.println("Bad News... this paperwork is useless...");
                 break;
             }
 
-            if (currNum == 100) {
-                currNum = 1;
+            // Amount of numbers that will be called, can be changed to any value
+            if (currNum == 200) {
+                currNum = 1; // Overflow loop, when number reaches max it reverts to 1
             } else {
-                currNum++;
+                currNum++; // Increases when not at max
             }
         }
     }
